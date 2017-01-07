@@ -8,6 +8,11 @@ body{
    background-color: #D3D3D3;
  }
 
+ #overall-container {
+   position: relative;
+   height: 100vh;
+ }
+
 .main-container{
   background-color: #D3D3D3;
   /*height: 100%;*/
@@ -24,16 +29,19 @@ body{
   /*width:95%;*/
   background-color: white;
   order: 1;
-  padding-top: 3px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+p {
+  margin-top: 0;
 }
 
 .button-holder{
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  margin-top: 25px;
   }
 
 .red-button{
@@ -85,6 +93,7 @@ body{
   display: flex;
   justify-content: center; /* align horizontal */
   align-items: center;
+  margin-bottom: 20px;
   }
 
 .bottom-container-text{
@@ -100,6 +109,8 @@ body{
   align-items: center;
   justify-content: flex-end;
   padding-right: 50px;
+  position: absolute;
+  bottom: 0;
 }
 
 .footer-text{
