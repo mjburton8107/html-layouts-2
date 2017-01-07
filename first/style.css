@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-box{
+  flex-direction: row;
+  height: 100px;
+  width: 300px;
+}
+
+.lorem-ipsum-text{
+  font-size: 20px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.second-container{
+  background-color: blue;
+  display: flex;
+  flex-grow: 1;
+  height: 300px;
+  padding-left: : 0px;
+}
+
+.half-container{
+  background-color: red;
+  width: 25%;
+}
+
+.white-bar{
+  background-color: #fff;
+  height: 20px;
+}
+
+.third-container{
+  background-color: blue;
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100px;
+  /*position: relative;*/
+}
+
+.third-container-layer1{
+  background-color: red;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.third-container-layer2{
+  background-color: black;
+  width: 80%;
+  height: 100px;
+  /*position: absolute;*/
+  /*right:0px;*/
+  /*margin-right: 25px;*/
+}
